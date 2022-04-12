@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border-bottom: 1px solid #e2e2e2;
+    height: 35px;
+    display: block;
+}
+.headerInside {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 3%;
+    position: relative;
+    display: block;
+}
+.headerIcons {
+    display: flex;
+    left: 0;
+    justify-content: space-around;
+    position: absolute;
+}
+
+#barsIcon {
+    margin-right: 8px;
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 8px 9px 9px;
+}
+#searchIcon {
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 8px 9px 9px;
+}
+.sports {
+    display: block;
+    position: absolute;
+    left: 105px;
+    top: -15px;
+}
+#title {
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 8px 9px 9px;
+    margin: 0 400px; 
+    top: -15px;
+}
+#title h3 {
+    margin: 0 0;
+}
